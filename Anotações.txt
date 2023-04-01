@@ -1,0 +1,22 @@
+rodar programa: dotnet new console
+compilar: dotnet run
+--------------------------------------------------------------------
+Variaveis:
+
+static string "Variavel"; //Se uma variavel é criada dentro do metodo ela n precisa do "Static";
+
+public int "Variavel";
+
+--------------------------------------------------------------------
+Receber:
+
+EX: Condicao = Console.ReadLine();
+--------------------------------------------------------------------
+Console.
+
+Write: escrever
+WriteLine: escrever e pular uma linha
+ReadKey: Ler uma tecla
+ReadLine: Ler linha
+Clear: Limpar terminal
+

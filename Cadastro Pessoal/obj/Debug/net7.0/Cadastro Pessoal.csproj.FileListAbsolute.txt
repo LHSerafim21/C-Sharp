@@ -1,0 +1,15 @@
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\bin\Debug\net7.0\Cadastro Pessoal.exe
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\bin\Debug\net7.0\Cadastro Pessoal.deps.json
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\bin\Debug\net7.0\Cadastro Pessoal.runtimeconfig.json
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\bin\Debug\net7.0\Cadastro Pessoal.dll
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\bin\Debug\net7.0\Cadastro Pessoal.pdb
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.csproj.AssemblyReference.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.dll
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\refint\Cadastro Pessoal.dll
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.pdb
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\Cadastro Pessoal.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Cadastro Pessoal\obj\Debug\net7.0\ref\Cadastro Pessoal.dll

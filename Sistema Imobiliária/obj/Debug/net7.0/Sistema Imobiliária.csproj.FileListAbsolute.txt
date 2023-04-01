@@ -1,0 +1,5 @@
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Sistema Imobiliária\obj\Debug\net7.0\Sistema Imobiliária.csproj.AssemblyReference.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Sistema Imobiliária\obj\Debug\net7.0\Sistema Imobiliária.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Sistema Imobiliária\obj\Debug\net7.0\Sistema Imobiliária.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Sistema Imobiliária\obj\Debug\net7.0\Sistema Imobiliária.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Faculdade\#Programação\C-Sharp\Sistema Imobiliária\obj\Debug\net7.0\Sistema Imobiliária.csproj.CoreCompileInputs.cache
