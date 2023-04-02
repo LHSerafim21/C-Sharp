@@ -13,5 +13,26 @@ namespace Sistema_Imobiliária
         {
             this.TaxaImpostoFederal = TaxaImpostoFederal;
         }
+    
+        public float getTaxaImpostoFederal()
+        {
+            return TaxaImpostoFederal;
+        }
+
+        public void serTaxaImpostoFederal(float TaxaImpostoFederal)
+        {
+            this.TaxaImpostoFederal = TaxaImpostoFederal;
+        }
+
+        public float getValorAluguel(float ValorAluguel)
+        {   
+            return ValorAluguel = ValorAluguel + TaxaImpostoFederal;
+        }
+
+        override
+        public string ToString(){
+            return base.ToString() + "Valor Aluguel: " + getValorAluguel();
+        }
+ 
     }
 }

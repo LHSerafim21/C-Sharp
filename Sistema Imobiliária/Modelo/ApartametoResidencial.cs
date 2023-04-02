@@ -36,15 +36,15 @@ namespace Sistema_Imobiliária
             this.ValorCondominio = ValorCondominio;
         }
 
-        public float getValorAluguel()
+        public float getValorAluguel(float ValorAluguel)
         {   
             return ValorAluguel = ValorAluguel + ValorCondominio;
         }
 
         override
         public string ToString(){
-            return base.ToString() + "Valor Aluguel: " + ValorCondominio + "Andar: " + andar;
+            return base.ToString() + "Valor Aluguel: " + getValorAluguel() + "Andar: " + andar;
         }
-        
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Imovel
+public abstract class Imovel
 {
     protected int codigoImovel;
     protected string endereco;
@@ -111,7 +111,7 @@ public class Imovel
     }
 
     public float getValorAluguel() 
-    {
+    {   
         return ValorAluguel;
     }
 
