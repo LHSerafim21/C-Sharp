@@ -73,7 +73,23 @@ namespace Sistema_Imobiliária
         public DateTime getDataPagamentoMensal(){
             return DataPagementoMensal;
         }
-        public void 
+        public void setDataPagamentoMensal(){
+            this.DataPagementoMensal = DataPagementoMensal;
+        }
+        public DateTime getValorPagamentoMensal(){
+            return ValorPagementoMensal;
+        }
+        public void setValorPagamentoMensal(){
+            this.ValorPagementoMensal = ValorPagementoMensal;
+        }
+        public DateTime getFormaPagamento(){
+            return FormaPagemento;
+        }
+        public void setDataPagamentoMensal(){
+            this.FormaPagemento = FormaPagemento;
+        }
+        
+
 
 
 
