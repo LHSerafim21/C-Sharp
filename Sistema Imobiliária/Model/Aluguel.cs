@@ -15,12 +15,12 @@ namespace Sistema_Imobiliária
         private DateTime DataAluguel;
         private DateTime DataDevolucao;
         private DateTime DataPagementoMensal;
-        private float ValorPagementoMensal;
+        private float ValorTotalAluguel;
         private Pagamento FormaPagamento;
         private ArrayList<Seguro> SegurosContratados;
         private Boolean pago;
 
-        public Aluguel(int CodigoAluguel, Cliente cliente, Corretor corretor, Imovel imovel, DateTime DataAluguel, DateTime DataDevolucao, DateTime DataPagamentoMensal, float ValorPagementoMensal, Pagamento FormaPagamento, ArrayList<Seguro> SegurosContratados, Boolean pago){
+        public Aluguel(int CodigoAluguel, Cliente cliente, Corretor corretor, Imovel imovel, DateTime DataAluguel, DateTime DataDevolucao, DateTime DataPagamentoMensal, float ValorTotalAluguel, Pagamento FormaPagamento, ArrayList<Seguro> SegurosContratados, Boolean pago){
             this.CodigoAluguel = CodigoAluguel;
             this.cliente = cliente;
             this.corretor = corretor;
@@ -28,7 +28,7 @@ namespace Sistema_Imobiliária
             this.DataAluguel = DataAluguel;
             this.DataDevolucao = DataDevolucao;
             this.DataPagementoMensal = DataPagementoMensal;
-            this.ValorPagementoMensal = ValorPagementoMensal;
+            this.ValorTotalAluguel = ValorTotalAluguel;
             this.FormaPagamento = FormaPagamento;
             this.SegurosContratados = SegurosContratados;
             this.pago = pago;
@@ -61,7 +61,7 @@ namespace Sistema_Imobiliária
         public DateTime getDataAluguel(){
             return DataAluguel;
         }
-        public void setDataAluguel(){
+        public void setDataAluguel(DateTime DataAluguel){
             this.DataAluguel = DataAluguel;
         }
         public DateTime getDataDevolucao(){
@@ -73,24 +73,69 @@ namespace Sistema_Imobiliária
         public DateTime getDataPagamentoMensal(){
             return DataPagementoMensal;
         }
-        public void setDataPagamentoMensal(){
+        public void setDataPagamentoMensal(DateTime DataPagamentoMensal){
             this.DataPagementoMensal = DataPagementoMensal;
         }
-        public DateTime getValorPagamentoMensal(){
-            return ValorPagementoMensal;
+        public DateTime getValorTotalAluguel(){
+            return ValorTotalAluguel;
         }
-        public void setValorPagamentoMensal(){
-            this.ValorPagementoMensal = ValorPagementoMensal;
+        public void setValorTotalAluguel(float ValorTotalAluguel){
+            this.ValorTotalAluguel = ValorTotalAluguel;
         }
-        public DateTime getFormaPagamento(){
+        public Pagamento getFormaPagamento(){
             return FormaPagemento;
         }
-        public void setDataPagamentoMensal(){
+        public void setFormaPagamento(Pagamento FormaPagemento){
             this.FormaPagemento = FormaPagemento;
         }
-        
+        public ArrayList<Seguro> getSegurosContratados(){
+            return SegurosContratados;
+        }
+        public void setDataPagamentoMensal(ArrayList<Seguro> SegurosContratados){
+            this.SegurosContratados = SegurosContratados;
+        }
+        public boolean getPago(){
+            return pago;
+        }
+        public void setPago(boolean Pago){
+            this.Pago = Pago;
+        }
 
+        public float CalcularValorTotal(){
 
+            ValorTotalAluguel = Imovel.getValorAluguel + Seguro.getValor;
+
+            return ValorTotalAluguel;
+        }
+
+        public Boolean PossuiSeguro(){
+            
+            if(SegurosContratados == NULL){
+                return false;
+            } 
+            else{return true;}
+        }
+
+        public Boolean VerificarAtraso(){
+            if(DataAluguel >= DataPagementoMensal){
+                return true;
+            }
+            else{return false;}
+        }
+
+        public String ToString(){
+
+            return  "Codigo do Aluguel: " + CodigoAluguel +
+                    "Cliente: " + cliente +
+                    "Corretor: " + corretor +
+                    "Imovel: " + imovel +
+                    "Data do Aluguel: " + DataAluguel +
+                    "Data da Devolução: " + DataDevolucao +
+                    "Data do Pagamento: " + DataPagementoMensal +
+                    "Valor Total do Aluguel: " + CalcularValorTotal() +
+                    "Seguros Contratados: " + SegurosContratados +
+                    "Pago: " + pago;
+        }
 
 
 
